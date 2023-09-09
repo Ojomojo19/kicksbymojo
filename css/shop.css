@@ -1,0 +1,199 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Benne', serif;
+    background-color: white;
+}
+
+.nav1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo{
+    position: absolute;
+    padding: 5px 10px ;
+    display: inline-block;
+}
+
+.logoName{
+    color: black;
+    font-family: 'Benne', serif;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.realNav{
+    /* display: inline-block; */
+    margin-left: 300px;
+    position: absolute;
+    padding: 10px;
+}
+
+.realNav a{
+    padding: 0px 10px;
+    text-decoration: none;
+    font-size:large;
+    font-family: 'Benne', serif;
+    color: black;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.realNav a:hover{
+    transition: 0.3s sec ease all;
+    color: #abab;
+    /* filter: blur(2px); */
+}
+
+.search-stuff{
+    width: 100px;
+   /* float: right; */
+   margin-left: 980px;
+   margin-top: 5px;
+}
+
+.searchBar{
+    width: 140px;
+    border-radius: 50px;
+    outline: none !important;
+    border: 1px solid #ababab;
+    background: fff;
+    color: black;
+    /* font-family: 'Benne', serif; */
+    padding: 5px 10px;
+    margin-left: 10px;
+    text-decoration: none !important;
+}
+
+.searchBar:focus{
+    border: 1px solid #ccc;
+    color: black;
+    background-color: #f1f1f1;
+    text-decoration: none !important;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: #f00;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+.lovePart{
+    width: 100px;
+    display: flex;
+    padding:0 10px;
+    /* margin-left: 30px; */
+    margin: 3px 50px;
+    /* font-weight: bold; */
+    font-size: x-large;
+}
+
+.lovePart i{
+    padding: 0px 3px;
+}
+
+.lovePart a{
+    text-decoration: none;
+    color: black;
+    transition: 0.2s ease all;
+    padding: 2px 5px;
+}
+
+.lovePart a:hover{
+    background-color: #f1f1f1;
+    transition: 0.2s ease all;
+    border-radius: 30px;
+}
+
+.menuBtn{
+    display: none;
+}
+
+.valBar{
+    display: none;
+}
+
+.slideInfo{
+    margin: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #e0e0e0;
+}
+
+.innerStuff{
+    margin: auto;
+    text-align: center;
+}
+
+.innerStuff h3, .innerStuff p{
+    margin: 10px;
+    display: inline-block;
+    font-family: 'Benne', serif;
+}
+
+.innerStuff a{
+    color: #ababab;
+}
+
+.bodyMain{
+    font-family: 'Benne', serif;
+    width: 95%;
+    margin: auto;
+    height: 1240px;
+    /* background-color: red; */
+}
+
+.fontType{
+    margin: 0 10px;
+    right: 3%;
+    position: absolute;
+}
+
+.shoeBox{
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+}
+
+.imgBox img{
+    width: 100%;
+    height: 300px;
+    /* opacity: 0.8; */
+}
+
+.imgCap h5{
+    color: rgba(145, 10, 10, 0.74);
+    margin-top: 10px;
+}
+
+.imgCap{
+    margin: 5px 0;
+    /* padding: 3px; */
+}
+
+/* #emptyBack{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: gray; 
+    filter: blur(1.5);
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+} */
+
+
+
+
+
+
+

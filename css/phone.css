@@ -1,0 +1,70 @@
+@media screen and (max-width:647px) {
+    .nav-content{
+        display: none;
+    }
+    .menuBtn{
+        display: inline-block;
+        right: 0;
+        position: absolute;
+        padding: 20px;
+    }
+
+    .menuBtn a{
+        color: #ababab;
+        font-size: larger;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        padding: 7px 12px;
+        border-radius: 20px;
+        transition: 0.3s ease all;
+    }
+
+    .menuBtn a:hover, .menuBtn a:focus{
+        background-color: rgba(255, 217, 0, 0.158);
+        transition: 0.3s ease all;
+    }
+
+    .valBar{
+        display: none;
+    }
+
+    .valBar ul{
+        margin-top: 30px;
+    }
+
+    .valBar a, .valBar li {
+        list-style: none;
+        text-decoration: none;
+        color: black;
+        padding: 5px;
+    }
+
+    .valBar a:hover, valBar a:focus,
+    .valBar li:focus, .valBar li:hover
+    {
+        cursor: pointer;
+    }
+
+    .times{
+        padding: 5px;
+        right: 0;
+        position: absolute;
+    }
+
+    .times a {
+        color: #ababab;
+        font-size: larger;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        padding: 4px 10px;
+        border-radius: 20px;
+        transition: 0.3s ease all;
+    }
+
+    .times a:hover, .times a:focus{
+        background-color: rgba(255, 217, 0, 0.158);
+        transition: 0.3s ease all;
+    }
+    
+}
+

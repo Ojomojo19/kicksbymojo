@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    background-color: #ccc;
+}
+
+.backBdy{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    object-fit: cover;
+    left: 0;
+    z-index: -1;
+    /* animation-name: back;
+    animation-duration: 2s; */
+}
+
+/* @keyframes back{
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
+} */
+
+.nav{
+    display: inline-block;
+    width: 100%;
+}
+
+.logo{
+    position: absolute;
+    padding: 5px 10px ;
+    display: inline-block;
+}
+
+.logoName{
+    color: #ababab;
+    font-family: 'Benne', serif;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.nav-content{
+    display: inline-block;
+    right: 0;
+    position: absolute;
+    padding: 20px;
+}
+
+.nav-content a{
+    padding: 0px 10px;
+    text-decoration: none;
+    font-size:large;
+    color: #ababab;
+    transition: 0.3s;
+}
+
+.nav-content a:hover, .nav-content a:focus {
+    transition: 0.3s;
+    color: rgba(255, 217, 0, 0.329);
+    cursor: pointer;
+}
+
+.menuBtn{
+    display: none;
+}
+
+.valBar{
+    display: none;
+}
